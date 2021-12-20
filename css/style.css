@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    line-height: 52px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 3.625rem;
+    margin: 30px auto;
+    font-family: 'Sacramento', cursive;
+    color: #EADEDE;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #B85252;
+}
+
+#top{
+    padding-top: 100px;
+    background-color: #F58840;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 320px;
+    left: 400px;
+}
+
+.profile img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row .image-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row .image-2{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr{
+    border-style: dotted none none;
+    width: 5%;
+    margin: 30px auto;
+    border-color: #F58840;
+    border-width: 6px;
+}
+
+.contact-me h2{
+    font-weight: 200;
+}
+
+.contact-me h3{
+    font-weight: bold;
+    color: #B85252
+}
+
+.contact-me .btn{
+    border-radius: 8px;
+    background-color: #EADEDE;
+    padding: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#down{
+    background-color: #EADEDE;
+    padding: 40px;
+}
+
+#down .footer-link{
+    color: #B85252;
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.8rem;
+}
+
+#down a+a{
+    margin-left: 20px;
+}
+
+#down p{
+    font-size: 0.8rem;
+}
